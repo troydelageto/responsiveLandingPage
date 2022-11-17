@@ -1,0 +1,98 @@
+/* ======= Google fonts ====== */
+
+/* ------------> Poppins all */
+/* ========= Css Variables ======= */
+
+:root{
+    --white-color:#fff;
+    --dark-color:#;
+    --body-bg-color:#fff;
+    --section-bg-color:#202834;
+    --navigation-item-hover-color:#3b5378;
+
+    --text-shadow:0 5px 25px rgba(0,0,0,0.1);
+    --box-shadow:0 5px 25px rgb(0 0 0 /20%);
+
+    --scroll-bar-color:#fff;
+    --scroll-thumb-color:#282f4e;
+    --scroll-thumb-hover-color:#454f6b;
+}
+
+/* ======== scroll bar ===========*/
+
+/* ======== Main Css ============ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: var(--body-bg-color);
+}
+/* ======= Header ================ */
+header{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: calc(5rem+1rem);
+    border: 2px solid green;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .nav-bar{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 0 200px;
+    transition: 0.3s ease;
+
+}
+
+.nav-close-btn, .nav-menu-btn{
+    display: none;
+}
+
+.nav-bar .logo{
+    color: var(--dark-color);
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: var(--text-shadow);
+}
+
+.navigation .nav-items a{
+color: var(--dark-color);
+font-size: 1em;
+text-decoration: none;
+text-shadow: var(--text-shadow);
+}
+
+.navigation .nav-items a i{
+    display: none;
+}
+
+.navigation .nav-items a:not(:last-child){
+    margin-right:45px ;
+}
+/* ========== Home ============= */
+
+/* ========= Background slider  ========== */
+
+/* =======  Media icons ============ */
+
+/*  ======= About section ============ */
+
+/* =========  Media queries (max-width:1100px) ======= */
+
+@media screen and (max-width:1100px){
+
+}
